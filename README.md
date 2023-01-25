@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 🦸‍♂️ Heroes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 Link a la web:
 
-## Available Scripts
+[Heroes App](https://gifs-finder-braian.netlify.app/)
 
-In the project directory, you can run:
+![Heroes App](https://www.linkpicture.com/q/Marvel.png)
 
-### `npm start`
+## 📖 Descripción
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La siguiente aplicación de React consiste en un buscador de superheroes de Marvel y DC. La misma se construyó mediante una SPA (Single-page Application).
+Lo primero que verá el usuario al ingresar será una pantalla que simula el login tal como se puede ver en la siguiente imagen:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Login](https://www.linkpicture.com/q/Login_3.png)
 
-### `npm test`
+No se realiza validación contra ningun backend de momento pero se planea hacerlo en un futuro. Al momento de hacer click en el botón de Login se ingresará a la pestaña de Marvel y podrá navegar entre las distintas rutas de la barra de navegación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Marvel](https://www.linkpicture.com/q/Marvel.png)
 
-### `npm run build`
+En la pestaña de DC podrá visualizar los distintos superheroes de esa compañia:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![DC](https://www.linkpicture.com/q/DC.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+En la pestaña de Search, se podrá buscar cualquier superheroe de la lista y obtener una breve descripción del mismo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Search](https://www.linkpicture.com/q/Search_1.png)
 
-### `npm run eject`
+Cada personaje tiene su propia descripción y propiedades que se podran visualizar de forma individual haciendo click en `"Más..."`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Individual](https://www.linkpicture.com/q/Individual.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+La aplicación esta diseñada para de forma tal que no permita ingresar a la pantalla de Login habiendo realizado dicha acción asi como también no permitirá ingresar al usuario a las paginas Marvel, DC, Search sin haberse logueado previamente. Simulando asi una autenticación verdadera.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👷‍♂️Construido con:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React
 
-## Learn More
+## 🤓 Lo que aprendí:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- El manejo de estados mediante hooks de React
+- La reutilización de codigo utilizando custom-hooks
+- SPA
+- Context
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🙋‍♂️ Autor:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Linkedin - [Braian Gazano](https://www.linkedin.com/in/braian-gazano/)
+- Github - [Braian Gazano](https://github.com/BraianGazano)
